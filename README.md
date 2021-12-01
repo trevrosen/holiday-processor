@@ -1,8 +1,11 @@
 # holiday-processor
-Process Numbers into Pages
+Process address lists in Numbers into label sheets in Pages, b/c Pages doesn't have a mail merge feature.
+
+## Warning
+I made this for me and I don't anticipate changing it or making it much better. Feel free to use it if you think it would benefit you.
 
 ## Usage Reminders
-* Ensure that the active documents in both Numbers and Pages are ready
+* Ensure that the active documents in both Numbers and Pages are ready. Easiest thing is to open both as the only documents open in each application.
 * Only one sheet per Numbers doc
 * Rows: Name, Street, Street2, City, State Zip
 * For non-US put the country in the zip field
