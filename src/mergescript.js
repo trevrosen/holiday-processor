@@ -17,14 +17,11 @@ for (let i = 1; i < addresses.rows.length; i ++) {
     if (!street2) {
         label =`${toField}
 ${street1}
-${city}, ${state}
-${zip}`;
+${city}, ${state} ${zip}`;
     }else{
         label =`${toField}
-${street1}
-${street2}
-${city}, ${state}
-${zip}`;
+${street1}, ${street2}
+${city}, ${state} ${zip}`;
     }
 
     // console.log(label);
