@@ -10,3 +10,7 @@ I made this for me and I don't anticipate changing it or making it much better. 
 * Rows: Name, Street, Street2, City, State Zip
 * For non-US put the country in the zip field
 * Copy/paste the grid into as many pages of the Pages doc as need be to handle the line item count - new pages on the Pages doc won't be created automatically.
+
+## JXA
+JXA is the name for JavaScript-based automation in macOS, executed via the `osascript` CLI bin.
+[This guide](https://github.com/JXA-Cookbook/JXA-Cookbook) was really helpful in figuring out how the hell all this works.
